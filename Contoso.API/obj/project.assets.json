@@ -10377,7 +10377,7 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.3.0": {
-      "sha512": "37+hgdTmMmpsiM0NZJp/L9kTKOLsQ/4EFuwmf7u5kjv6NLifzcH0fBiK/TY5nltClOT3PGt1YPqU8IeABkZi5Q==",
+      "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roberto\\.nuget\\packages\\": {},
+    "C:\\Users\\Izaak\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12542,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roberto\\Desktop\\Ejemplos\\Clases\\DevFriends\\AplicacionPractica.API\\Contoso.API\\Contoso.API\\Contoso.API.csproj",
+      "projectUniqueName": "C:\\Users\\Izaak\\Desktop\\Primer Clase\\Contoso.API\\Contoso.API\\Contoso.API.csproj",
       "projectName": "Contoso.API",
-      "projectPath": "C:\\Users\\Roberto\\Desktop\\Ejemplos\\Clases\\DevFriends\\AplicacionPractica.API\\Contoso.API\\Contoso.API\\Contoso.API.csproj",
-      "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roberto\\Desktop\\Ejemplos\\Clases\\DevFriends\\AplicacionPractica.API\\Contoso.API\\Contoso.API\\obj\\",
+      "projectPath": "C:\\Users\\Izaak\\Desktop\\Primer Clase\\Contoso.API\\Contoso.API\\Contoso.API.csproj",
+      "packagesPath": "C:\\Users\\Izaak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Izaak\\Desktop\\Primer Clase\\Contoso.API\\Contoso.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Izaak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12576,14 +12576,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [
